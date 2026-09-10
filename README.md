@@ -192,3 +192,7 @@ npm --prefix backend run test:watch
 2. **Fail-Twice Counter**: The `fail-twice` counter is stored in-memory in the backend process and automatically resets after the 3rd successful attempt.
 3. **Local Supplier URLs**: The activities query `http://localhost:3000`. In production, supplier endpoints would be read from environment variables (`SUPPLIER_A_URL`, `SUPPLIER_B_URL`).
 4. **Temporal Cluster**: Assumes a local Temporal cluster is available on `localhost:7233`.
+<img width="1522" height="723" alt="image" src="https://github.com/user-attachments/assets/e473fef9-c3c4-441c-8fc8-880011bc036a" />
+<img width="1498" height="714" alt="image" src="https://github.com/user-attachments/assets/aa519fb6-7908-457a-ae88-81bb672c907c" />
+<img width="379" height="653" alt="image" src="https://github.com/user-attachments/assets/07361642-0672-4c1a-aa41-829e942de642" />
+
