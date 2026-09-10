@@ -1,0 +1,15 @@
+{
+  "name": "hotel-rate-comparator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm --prefix backend test",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "worker": "npm --prefix backend run worker"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
