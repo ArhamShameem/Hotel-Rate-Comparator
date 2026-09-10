@@ -5,7 +5,7 @@ let client: Client | null = null;
 export async function getTemporalClient() {
   if (!client) {
     const connection = await Connection.connect({
-      address: "localhost:7233",
+      address: process.env.TEMPORAL_ADDRESS || "localhost:7233",
     });
 
     client = new Client({
